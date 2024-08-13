@@ -21,17 +21,3 @@ The goal of this project is to create a system that can automatically moderate u
 ## Dataset
 
 The dataset used for this project is a collection of social media posts from kaggle labeled for hate speech, offensive language, and neutral text. It is preprocessed to remove noise and convert the text into a format suitable for machine learning.
-
-## Project Structure
-
-content_moderator/
-│
-├── content_moderator_env/ # Virtual environment for the project
-├── app.py # Flask API code
-├── labeled_data.csv # Original dataset (not included in repo)
-├── preprocess_data.py # Script for data preprocessing
-├── preprocessed_hate_speech_dataset.csv # Preprocessed dataset
-├── train_model.py # Script to train the model
-├── content_moderator_model.pkl # Saved trained model
-├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
-└── README.md # Project documentation
